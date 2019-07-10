@@ -2,10 +2,36 @@
     max-width: 90px;
 }
 
+.banner-img {
+    background-image: url(./img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 260px;
+    max-height: 260px;
+    margin-top: 85px;
+}
+
+.banner-txt {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
 .mockups {
     max-width: 200px;
 }
 
+.open {
+    width: 70px;
+}
+
+.bg-purple {
+    background-color: #5e4352;
+}
+
 .headings {
     font-size: 30px;
+}
+
+.font-color {
+    color: dfbbb1;
 }

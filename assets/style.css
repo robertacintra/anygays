@@ -2,26 +2,13 @@
     max-width: 90px;
 }
 
-.banner-img {
-    background-image: url(./img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 260px;
-    max-height: 260px;
-    margin-top: 85px;
-}
-
-.banner-txt {
-    font-size: 30px;
+.banner {
     font-family: 'Pacifico', cursive;
+    color: #5e4352;
 }
 
 .mockups {
     max-width: 200px;
-}
-
-.open {
-    width: 70px;
 }
 
 .bg-purple {
@@ -30,8 +17,18 @@
 
 .headings {
     font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .font-color {
-    color: dfbbb1;
+    color: #dfbbb1;
+}
+
+.bg-color {
+    background-color: #dfbbb1;
+}
+
+.styled-font {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }

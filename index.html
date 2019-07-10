@@ -24,28 +24,33 @@
                     <a class="nav-link font-color" href="#app">Aplicativo</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link font-color" href="#signup">Cadastre-se</a>
+                    <a class="nav-link font-color" href="#signup">Cadastre-se</a>
                 </li>
             </ul>
         </div>
     </nav>
     
-    <header class="container row col-12 banner-img">
+    <section class="row banner mt-5 bg-color" id="start">
         <div class="col-md-6">
-            <img class="open" src="./assets/img/PNG/restaurants-and-cafes-vector-free-icon-set-23.png" alt="">
+            <img class="img-fluid" src="./assets/img/banner.png" alt="Ilustração do banner">
         </div>
-        <div class="col-md-6">
-            <h1 class="banner-txt col-md-6 text-right ">
-                Uma rede social segura para você descobrir, explorar e ocupar os espaços LGBTQ+ na sua cidade – e no mundo!
-            </h1>
+        <div class="col-md-6 align-self-center">
+            <h2 class="text-right px-3">
+                Uma rede social segura para você descobrir, explorar e ocupar os espaços LGBTQ+ ao seu redor!
+            </h2>
         </div>
-    </header>
+    </section>
     
     <!-- Idea/Safety presentation -->
-    <section class="row text-center bg-light p-3 align-items-center" id="start">
+    <section class="row text-center bg-light p-3 align-items-center" id="app">
+        <div class="col-12">
+            <h1 class="styled-font text-left pt-3">
+                Como funciona ✨
+            </h1>
+        </div>
         <div class="col-md-6 col-12 mx-auto">
             <h1 class="headings text-center mb-3">
-                Uma rede social segura para você descobrir, explorar e ocupar os espaços LGBTQ+ na sua cidade – e no mundo!
+                Divida experiências, avalie estabelecimentos, e privilegie a sua comunidade. Com o aplicativo anygays, tudo isso vai ficar mais fácil e acessível. 
             </h1>
         </div>
         <div class="col-md-6 col-12 mx-auto">
@@ -74,24 +79,28 @@
         </div>
         <div class="col-md-6 col-12 mx-auto">
             <img class="mockups" src="./assets/img/mockups/login.png" alt="Protótipo da página de perfil do aplicativo"/>
-        </div>
-    </section>
-
-    <section class="row text-center bg-light p-3 align-items-center" id="app">
-        <div class="col-md-6 col-12 mx-auto">
             <img class="mockups" src="./assets/img/mockups/signup.png" alt="Protótipo da página inicial do aplicativo"/>
         </div>
-        <div class="col-md-6 col-12 mx-auto">
-            <h1 class="headings text-center mb-3">
-                Divida experiências, avalie estabelecimentos, e privilegie a sua comunidade. Com o aplicativo anygays, tudo isso vai ficar mais fácil e acessível. 
-            </h1>
-        </div>
     </section>
-
+    
     <!-- sign up -->
-    <section class="row text-center bg-light p-3 align-items-center">
+    <section class="row text-center bg-color p-3 align-items-center">
         <div class="col-12 mx-auto">
-            
+        
+        <form action="/action_page.php">
+            <div class="form-group">
+                <h1 class="headings">Quer saber mais, e ser informado sobre o lançamento do aplicativo? Inscreva-se na nossa newsletter 🌈✨</h1>
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">Concordo com os Termos de Segurança, e quero receber as novidades sobre o Aplicativo.
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
         </div>
     </section>
     

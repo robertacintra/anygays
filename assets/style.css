@@ -16,7 +16,7 @@
 }
 
 .headings {
-    font-size: 30px;
+    font-size: 22px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -31,4 +31,9 @@
 .styled-font {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+}
+
+.credits {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
 }

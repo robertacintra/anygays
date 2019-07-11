@@ -3,5 +3,6 @@
 # Landing page.
 
 - espaços seguros para LGBTQ+,
-- espaços de LGBTs para LGBTs,
-- segurança.
+- estabelecimentos LGBTQ+,
+- segurança nas informações divulgadas,
+- adicionar a sua rede de segurança, entre outros.

@@ -21,19 +21,19 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="nav navbar-nav navbar-right ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#start">Início <span class="sr-only">(current)</span></a>
+                    <a class="nav-link font-color" href="#start">Início <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-color" href="#app">Aplicativo</a>
+                    <a class="nav-link" href="#app">Aplicativo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-color" href="#signup">Cadastre-se</a>
+                    <a class="nav-link" href="#signup">Cadastre-se</a>
                 </li>
             </ul>
         </div>
     </nav>
     
-    <section class="row banner mt-5 bg-color pt-3" id="start">
+    <section class="row banner mt-5 m-0 bg-color pt-3" id="start">
         <div class="col-md-6">
             <img class="img-fluid" src="./assets/img/banner.png" alt="Ilustração do banner">
         </div>
@@ -59,7 +59,7 @@
     </section>
     
     <!-- Idea/Safety presentation -->
-    <section class="row text-center bg-light p-3 align-items-center" id="app">
+    <section class="row text-center bg-light p-3 m-0 align-items-center" id="app">
         <div class="col-12">
             <h1 class="styled-font text-left pt-3">
                 Como funciona ✨
@@ -82,7 +82,7 @@
     </section>
     
     <!-- Invite/Sign up -->
-    <section class="row text-center bg-light p-3 align-items-center">
+    <section class="row text-center bg-light p-3 m-0 align-items-center">
         <div class="col-md-6 col-12 mx-auto order-md-0 order-1">
             <img class="mockups" src="./assets/img/mockups/login.png" alt="Protótipo da página de perfil do aplicativo"/>
             <img class="mockups" src="./assets/img/mockups/signup.png" alt="Protótipo da página inicial do aplicativo"/>
@@ -97,23 +97,27 @@
     
     <!-- sign up -->
     <section class="col-12 text-center bg-color p-3 align-items-center" id="signup">
-        <div class="p-5">
-            <h1 class="banner">Quer saber mais, e ser informado sobre o lançamento do aplicativo? Inscreva-se na nossa newsletter 🌈✨</h1>
-            <label for="email">E-mail:</label>
-            <input type="email" class="form-control w-50" id="email">
+        <div class="">
+            <h1 class="banner">Quer saber mais, e ser informado sobre o lançamento do aplicativo? Inscreva-se na nossa newsletter 🌈</h1>
+                <label for="email" class="col-12">E-mail:</label>
+                <input type="email" class="col-12 email w-50" id="email">
         </div>
-        <div class="form-group form-check">
+        <div class="form-group form-check pt-2">
             <label class="form-check-label">
-                <input class="form-check-input" type="checkbox">Concordo com os Termos de Segurança, e quero receber as novidades sobre o Aplicativo.
+                <input class="form-check-input" type="checkbox">
+                <span class="agree">
+                    Concordo com os Termos de Segurança, e quero receber as novidades sobre o Aplicativo.
+                </span>
             </label>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-outline-light">Increver-se!</button>
     </section>
     
     <!-- footer -->
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-            <span class="text-muted">Copyright © Roberta Cintra - 2019</span>
+    <footer class="footer mt-auto py-3 bg-purple">
+        <div class="container text-center">
+            <span class="font-color">Copyright © Roberta Cintra - 2019</span>
+            <a target="_blank" href="https://github.com/robertacintra"><img class="github-icon" src="./assets/img/github-icon.png" alt="Icon GitHub"></a>
         </div>
     </footer>
     

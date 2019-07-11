@@ -18,7 +18,7 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="nav navbar-nav navbar-right ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#start">Início <span class="sr-only">(current)</span></a>
@@ -47,7 +47,7 @@
     <!-- Research -->
     <section class="col-12 bg-light p-3">
         <h1 class="styled-font pt-3 text-left">Mapa da violência em SP</h1>
-        <div class="row pt-3">
+        <div class="row pt-3 col-12">
             <div class="col-md-6">
                 <img class="img-fluid" src="./assets/img/mapa-de-homofobia.png" alt="Mapa da homofobia em São Paulo">
                 <p class="mb-0 credits">Créditos: <a href="http://especiais.g1.globo.com/sao-paulo/2017/o-mapa-da-homofobia-em-sp/">G1</a>, 2017.</p>
@@ -96,24 +96,18 @@
     </section>
     
     <!-- sign up -->
-    <section class="row text-center bg-color p-3 align-items-center" id="signup">
-        <div class="col-12 mx-auto">
-        
-        <form action="/action_page.php">
-            <div class="form-group p-5">
-                <h1 class="banner">Quer saber mais, e ser informado sobre o lançamento do aplicativo? Inscreva-se na nossa newsletter 🌈✨</h1>
-                <label for="email">E-mail:</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox">Concordo com os Termos de Segurança, e quero receber as novidades sobre o Aplicativo.
-                </label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-
+    <section class="col-12 text-center bg-color p-3 align-items-center" id="signup">
+        <div class="p-5">
+            <h1 class="banner">Quer saber mais, e ser informado sobre o lançamento do aplicativo? Inscreva-se na nossa newsletter 🌈✨</h1>
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control w-50" id="email">
         </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox">Concordo com os Termos de Segurança, e quero receber as novidades sobre o Aplicativo.
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
     </section>
     
     <!-- footer -->

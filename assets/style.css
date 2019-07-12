@@ -30,12 +30,14 @@ html {
 .headings {
     font-size: 22px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: right;
 }
 
 @media only screen and (max-width: 768px) {
     .headings {
         font-size: 0.8rem;
         padding-top: 20px;
+        text-align: center;
     }
 }
 
